@@ -1,0 +1,79 @@
+<!doctype html>
+<html ng-app="myapp" ng-controller="mycontroller">
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Curriculum</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+		<link rel="shortcut icon" type="image/x-icon" href="icons.png.png" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		
+		<script src="https://code.angularjs.org/1.0.1/angular-1.0.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route-segment/1.5.1/angular-route-segment.min.js"></script>
+		<style>
+			ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: #333333;
+			}
+
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 16px;
+			  text-decoration: none;
+			}
+
+			li a:hover {
+				color: #a6a6a6;
+			}
+	</style>
+	</head>
+    <body>
+		<nav style="background-color: #511515;" class="navbar navbar-expand-lg navbar-light  border-bottom">
+		  <a class="navbar-brand" href="#"><font style="color:white">Trabalho</font><b style="color: #e59a9a;">-Web</b></a>
+		</nav>
+		{{nome}}
+		<ul>
+			 <li><a href="#/">Início</a></li>
+			 <li><a href="#/quem_sou">Quem sou eu ?</a></li>
+			 <li><a href="#/o_que_faco">O que faço?</a></li>
+			 <li><a href="#/passa_tempo">Meu passa-tempo?</a></li>
+		</ul>
+		<div ng-view>
+		</div>
+		<footer style="background: #d9d9d9;">
+            <div class="row" >
+				<div class="col-sm-3" style="text-align:center;" ><br><i class="fa fa-facebook" style="font-size:30px"></i><hr/></div>
+				<div class="col-sm-3" style="text-align:center;" ><br><i class="fa fa-twitter" style="font-size:30px"></i><hr/></div>
+				<div class="col-sm-3" style="text-align:center;" ><br><i class="fa fa-google" style="font-size:30px"></i><hr/></div>
+				<div class="col-sm-3" style="text-align:center;" ><br><i class="fa fa-linkedin" style="font-size:30px"></i><hr/></div>
+			</div>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		</footer>
+		<script src="index.js"></script>
+    </body>
+</html>
+
+
